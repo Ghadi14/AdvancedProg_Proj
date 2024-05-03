@@ -1,0 +1,114 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model HouseMates.Models.AddHouseViewModel
+<form id="addHouseForm" method="post" asp-action="Add">
+
+<h1>Add House</h1>
+
+<div class="mt-3">
+    <label class="form-label">Location</label>
+    <input type="text" class="form-control" asp-for="location"/>
+</div>
+
+<div class="mt-3">
+    <label class="form-label">Description</label>
+    <input type="text" class="form-control" asp-for="description"/>
+</div>
+
+
+<div class="mt-3">
+    <label class="form-label">Number Of Bedrooms</label>
+    <input type="number" class="form-control" asp-for="numberOfBedrooms" />
+</div>
+
+
+<div class="mt-3">
+    <label class="form-label">Number Of Bathrooms</label>
+    <input type="number" class="form-control" asp-for="numberOfBathrooms" />
+</div>
+
+
+<div class="mt-3">
+    <label class="form-label">Roommate Description</label>
+    <input type="text" class="form-control" asp-for="roomMateDescription" />
+</div>
+
+<div class="mt-3">
+    <button type="submit" class="btn btn-primary">Save</button> 
+</div>
+</form>
+
+
+<div id="successPopup" class="popup">
+    <p>House added successfully!</p>
+    <button id="okButton">OK</button>
+</div>
+
+
+<script>
+    // Get the form element
+    const form = document.getElementById('addHouseForm');
+
+    // Get the pop-up element
+    const popup = document.getElementById('successPopup');
+
+    // Get the OK button
+    const okButton = document.getElementById('okButton');
+
+    // Add event listener to form submit
+    form.addEventListener('submit', async function (event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Submit the form data using Fetch API or other method
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: formData
+        });
+
+        // Check if the response is successful
+        if (response.ok) {
+            // Show the pop-up
+            popup.style.display = 'block';
+
+            // Optionally, you can reset the form
+            form.reset();
+        }
+    });
+
+    // Close the pop-up when clicking outside of it
+    window.addEventListener('click', function (event) {
+        if (event.target == popup) {
+            popup.style.display = 'none';
+        }
+    });
+
+    // Add event listener to the OK button
+    okButton.addEventListener('click', function () {
+        // Navigate to the home page
+        window.location.href = '/';
+    });
+</script>
+
+
+
+
+<style>
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+    }
+</style>

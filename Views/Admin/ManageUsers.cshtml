@@ -1,0 +1,51 @@
+﻿<!-- Views/Admin/ManageUsers.cshtml -->
+@model List<HouseMates.Areas.Identity.Data.ApplicationUser>
+
+<h2>Manage Users</h2>
+
+<!-- Add User Button -->
+<a asp-controller="Admin" asp-action="AddUser" class="btn btn-success">Add User</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Username</th>
+            <th>Is Admin</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.UserName</td>
+                <td>@user.IsAdmin</td>
+                <td>
+                    <!-- Toggle Admin Status Button -->
+                    <form asp-action="ToggleAdminStatus" asp-controller="Admin" method="post" class="d-inline">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                        <input type="submit" value="Toggle Admin Status" class="btn btn-primary" />
+                    </form>
+
+                    <!-- Delete User Button with Confirmation -->
+                    <form asp-action="DeleteUser" asp-controller="Admin" method="post" class="d-inline" onsubmit="return confirmDelete('@user.UserName')">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                        <input type="submit" value="Delete User" class="btn btn-danger" />
+                    </form>
+
+                    <!-- Edit User Button -->
+                    <a asp-controller="Admin" asp-action="EditUser" asp-route-userId="@user.Id" class="btn btn-warning">Edit User</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- JavaScript for Delete Confirmation -->
+<script>
+    function confirmDelete(userName) {
+        return confirm(`Are you sure you want to delete user: "${userName}"?`);
+    }
+</script>

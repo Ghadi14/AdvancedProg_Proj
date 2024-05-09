@@ -25,10 +25,21 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="House" asp-action="ListUserHouses">My Houses</a>
                         </li>
+
+                        @inject Microsoft.AspNetCore.Identity.UserManager<HouseMates.Areas.Identity.Data.ApplicationUser> UserManager
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            var currentUser = UserManager.GetUserAsync(User).Result;
+                            if (currentUser != null && currentUser.IsAdmin)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="ManageUsers">Manage Users</a>
+                                </li>
+                            }
+                        }
                     </ul>
                 </div>
             </div>

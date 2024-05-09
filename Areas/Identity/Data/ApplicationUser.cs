@@ -13,5 +13,7 @@ public class ApplicationUser : IdentityUser
     public string firstname { get; set; }
     public string lastname { get; set; }
     public ICollection<House> Houses { get; set; } = new List<House>();
+    public bool IsAdmin { get; set; }
+
 }
 

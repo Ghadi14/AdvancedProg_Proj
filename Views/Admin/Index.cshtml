@@ -1,0 +1,31 @@
+﻿<!-- Views/Admin/Index.cshtml -->
+@model List<HouseMates.Models.House>
+
+<h2>Admin Dashboard: All Houses</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Location</th>
+            <th>Bedrooms</th>
+            <th>Bathrooms</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var house in Model)
+        {
+            <tr>
+                <td>@house.location</td>
+                <td>@house.numberOfBedrooms</td>
+                <td>@house.numberOfBathrooms</td>
+                <td>@house.description</td>
+                <td>
+                    <a href="@Url.Action("Edit", "House", new { id = house.Id })">Edit</a> |
+                    <a href="@Url.Action("Delete", "House", new { id = house.Id })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

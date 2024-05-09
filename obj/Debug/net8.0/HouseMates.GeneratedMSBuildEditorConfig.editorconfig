@@ -70,8 +70,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ghadi/OneDrive/Desktop/Work/roubi/HouseMates/Views/House/ListBrowseHouses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcTGlzdEJyb3dzZUhvdXNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ghadi/OneDrive/Desktop/Work/roubi/HouseMates/Views/House/ListUserHouses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcTGlzdFVzZXJIb3VzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ghadi/OneDrive/Desktop/Work/roubi/HouseMates/Views/House/ViewHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcVmlld0hvdXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ghadi/OneDrive/Desktop/Work/roubi/HouseMates/Views/Shared/Error.cshtml]

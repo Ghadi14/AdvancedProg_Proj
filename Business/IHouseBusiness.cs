@@ -11,6 +11,8 @@ namespace HouseMates.Business
         public Task<StatusCode> EditAction(House viewModel);
         public Task<House> EditGet(Guid id);
         public Task<StatusCode> DeleteAction(Guid id);
+        public List<House> ListBrowseHouses(ClaimsPrincipal User);
+
 
 
 

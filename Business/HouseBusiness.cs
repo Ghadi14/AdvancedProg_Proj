@@ -19,7 +19,11 @@ namespace HouseMates.Business
         public async Task<StatusCode> Add(AddHouseViewModel houseViewModel, ClaimsPrincipal User)
         {
 
-            string userId = _dbContext.Users.Where(u => u.UserName == User.Identity.Name).ToList().First().Id;
+            string userId = _dbContext.Users
+                .Where(u => u.UserName == User.Identity.Name)
+                .ToList()  
+                .First()
+                .Id;
 
             House house = new House
             {
@@ -44,6 +48,15 @@ namespace HouseMates.Business
             string userId = _dbContext.Users.Where(u => u.UserName == User.Identity.Name).ToList().First().Id;
 
             List<House> list = _dbContext.Houses.Where(h => h.UserId == userId).ToList();
+
+            return list;
+        }
+
+        public List<House> ListBrowseHouses(ClaimsPrincipal User)
+        {
+            string userId = _dbContext.Users.Where(u => u.UserName == User.Identity.Name).ToList().First().Id;
+
+            List<House> list = _dbContext.Houses.Where(h => h.UserId != userId).ToList();
 
             return list;
         }

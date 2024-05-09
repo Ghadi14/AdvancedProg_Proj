@@ -9,12 +9,10 @@ namespace HouseMates.Controllers
 {
     public class HouseController : Controller
     {
-        private readonly ApplicationDbContext _dbContext;
         private readonly IHouseBusiness _houseBusiness;
-        public HouseController(ApplicationDbContext dbContext,IHouseBusiness houseBusiness)
+        public HouseController(IHouseBusiness houseBusiness)
         {
             _houseBusiness = houseBusiness;
-            _dbContext = dbContext;
         }
 
         [Authorize]
@@ -41,6 +39,15 @@ namespace HouseMates.Controllers
             return View(houses);
         }
 
+        [Authorize]
+        [HttpGet]
+        public IActionResult ListBrowseHouses()
+        {
+            List<House> houses = _houseBusiness.ListBrowseHouses(User);
+
+            return View(houses);
+        }
+
 
         [Authorize]
         [HttpGet]
@@ -59,6 +66,15 @@ namespace HouseMates.Controllers
 
             return RedirectToAction("ListUserHouses", "House");
         }
+
+        [Authorize]
+        [HttpGet]
+        public IActionResult ViewHouse(Guid id)
+        {
+
+            return View();
+        }
+
 
         [Authorize]
         [HttpPost]

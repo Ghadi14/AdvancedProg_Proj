@@ -3,16 +3,6 @@
 *@
 @{
 }
-@model List<HouseMates.Models.House>
-<div>
-
-<h1>My Houses</h1>
-    <div class="mt-3">
-        <a class="btn btn-primary" asp-controller="House" asp-action="Add">Add House</a>
-    </div>
-</div>
-
-
 <table class="table">
 
     <thead>
@@ -27,28 +17,19 @@
     </thead>
 
     <tbody>
-        @foreach(var house in Model)
-        {
-            <tr>
-                <td>@house.location</td>
+@*             <tr>
+                <td>Location</td>
                 <td>@house.description</td>
                 <td>@house.numberOfBedrooms</td>
                 <td>@house.numberOfBathrooms</td>
                 <td>@house.roomMateDescription</td>
                 <td>
                     <div class="mt-3">
-                        <a  class="btn btn-primary" asp-controller="House" asp-action="Edit" asp-route-id="@house.Id" >Edit</a>
+                        <a class="btn btn-primary">View Owner</a>
                     </div>
                 </td>
-
-                <td>
-                    <div class="mt-3">
-                        <a class="btn btn-danger ms-3" asp-controller="House" asp-action="Delete" asp-route-id="@house.Id">Delete</a>
-                    </div>
-                </td>
-            </tr>
-        }
-
+            </tr> *@
+   
     </tbody>
 
 </table>

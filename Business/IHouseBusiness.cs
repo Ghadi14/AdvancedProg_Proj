@@ -1,4 +1,5 @@
-﻿using HouseMates.Models;
+﻿using HouseMates.Areas.Identity.Data;
+using HouseMates.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -11,6 +12,10 @@ namespace HouseMates.Business
         public Task<StatusCode> EditAction(House viewModel);
         public Task<House> EditGet(Guid id);
         public Task<StatusCode> DeleteAction(Guid id);
+        public List<House> ListBrowseHouses(ClaimsPrincipal User);
+        public Task<ApplicationUser> UserGet(string id);
+
+
 
 
 

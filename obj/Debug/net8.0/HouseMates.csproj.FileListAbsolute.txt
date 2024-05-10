@@ -541,3 +541,4 @@ C:\Users\user\Source\Repos\Ghadi14\AdvancedProg_Proj\obj\Debug\net8.0\refint\Hou
 C:\Users\user\Source\Repos\Ghadi14\AdvancedProg_Proj\obj\Debug\net8.0\HouseMates.pdb
 C:\Users\user\Source\Repos\Ghadi14\AdvancedProg_Proj\obj\Debug\net8.0\HouseMates.genruntimeconfig.cache
 C:\Users\user\Source\Repos\Ghadi14\AdvancedProg_Proj\obj\Debug\net8.0\ref\HouseMates.dll
+C:\Users\ghadi\OneDrive\Desktop\Work\roubi\HouseMates\obj\Debug\net8.0\HouseMates.sourcelink.json

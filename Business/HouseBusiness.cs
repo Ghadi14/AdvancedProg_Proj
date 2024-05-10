@@ -47,6 +47,14 @@ namespace HouseMates.Business
 
             return list;
         }
+        public List<House> ListBrowseHouses(ClaimsPrincipal User)
+        {
+            string userId = _dbContext.Users.Where(u => u.UserName == User.Identity.Name).ToList().First().Id;
+
+            List<House> list = _dbContext.Houses.Where(h => h.UserId != userId).ToList();
+
+            return list;
+        }
 
         public async Task<StatusCode> EditAction(House viewModel)
         {
@@ -76,7 +84,14 @@ namespace HouseMates.Business
 
             return house;
         }
-            
+
+        public async Task<ApplicationUser> UserGet(string id)
+        {
+            var user = await _dbContext.Users.FindAsync(id);
+
+            return user;
+        }
+
         public async Task<StatusCode> DeleteAction(Guid id)
         {
             var house = await _dbContext.Houses.FindAsync(id);

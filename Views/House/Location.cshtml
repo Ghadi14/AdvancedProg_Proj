@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "House Location";
+}
+
+@model HouseMates.Models.House
+
+
+<title>@Model.location</title>
+
+<fieldset>
+    <legend style="font-family: Arial Black; font-size: large;">Check @Model.location</legend>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <div id="googleMap" style="height:400px;width:100%;"></div>
+    <script>
+        function myMap() {
+
+            var location='@Model.location'
+                    Lat=33.8938
+                    Long = 35.5018
+
+             console.log('test loc'+location)      
+            if (location == "baabda") {
+                Lat = 33.8340   
+                Long = 35.5437
+            } else if(location=="batroun"){
+                Lat=34.2498
+                    Long=35.6643
+            }
+            
+ 
+            var myCenter = new google.maps.LatLng(Lat, Long);
+            var mapProp = { center: myCenter, zoom: 12, scrollwheel: false, draggable: true, mapTypeId: google.maps.MapTypeId.ROADMAP };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            var marker = new google.maps.Marker({ position: myCenter });
+            marker.setMap(map);
+        }
+
+
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtxq7B6azcBoRSnV12S7YUyrVza-wAhzw&callback=myMap"></script>
+</fieldset>

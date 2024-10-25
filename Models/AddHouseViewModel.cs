@@ -1,4 +1,6 @@
-﻿namespace HouseMates.Models
+﻿using Microsoft.Build.Framework;
+
+namespace HouseMates.Models
 {
     public class AddHouseViewModel
     {

@@ -1,14 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Ghadi14\\AdvancedProg_Proj\\",
+  "WorkspaceRootPath": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\user\\source\\repos\\ghadi14\\advancedprog_proj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\business\\housebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:business\\housebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\user\\source\\repos\\ghadi14\\advancedprog_proj\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\home\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\house\\listuserhouses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\house\\listuserhouses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\house\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\house\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\house\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\house\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\models\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:models\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\migrations\\20240503110057_createdhousetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:migrations\\20240503110057_createdhousetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\migrations\\20240501174846_initapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:migrations\\20240501174846_initapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|c:\\users\\dell\\documents\\ua\\sems4\\advanced\\rouba_rami\\advancedprog_proj\\models\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9AAB826-DDDF-4224-9884-941F889F9AA0}|HouseMates.csproj|solutionrelative:models\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +74,222 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Home\\SearchResults.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SearchResults.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Home\\SearchResults.cshtml",
+              "RelativeToolTip": "Views\\Home\\SearchResults.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T20:53:29.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HouseBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Business\\HouseBusiness.cs",
+              "RelativeDocumentMoniker": "Business\\HouseBusiness.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Business\\HouseBusiness.cs",
+              "RelativeToolTip": "Business\\HouseBusiness.cs",
+              "ViewState": "AQIAACkAAACAmpmZmRk2wDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T10:03:33.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HouseController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\HouseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HouseController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\HouseController.cs",
+              "RelativeToolTip": "Controllers\\HouseController.cs",
+              "ViewState": "AQIAAB0AAADwZmZmZsYwwC8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T01:08:45.911Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACAAAAAAnJmZmZkJwC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:19:26.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T20:56:10.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-25T21:22:27.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListUserHouses.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\ListUserHouses.cshtml",
+              "RelativeDocumentMoniker": "Views\\House\\ListUserHouses.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\ListUserHouses.cshtml",
+              "RelativeToolTip": "Views\\House\\ListUserHouses.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwC4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T01:13:18.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Ghadi14\\AdvancedProg_Proj\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Ghadi14\\AdvancedProg_Proj\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIYAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T13:18:48.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Ghadi14\\AdvancedProg_Proj\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Ghadi14\\AdvancedProg_Proj\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwBsAAAAaAAAA",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\House\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\Index.cshtml",
+              "RelativeToolTip": "Views\\House\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T19:02:52.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\House\\Add.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\House\\Add.cshtml",
+              "RelativeToolTip": "Views\\House\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T19:02:55.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:28:50.438Z",
+              "WhenOpened": "2024-10-25T10:05:30.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\StatusCode.cs",
+              "RelativeDocumentMoniker": "Models\\StatusCode.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\StatusCode.cs",
+              "RelativeToolTip": "Models\\StatusCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T10:17:04.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240503110057_createdHouseTable.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Migrations\\20240503110057_createdHouseTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240503110057_createdHouseTable.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Migrations\\20240503110057_createdHouseTable.cs",
+              "RelativeToolTip": "Migrations\\20240503110057_createdHouseTable.cs",
+              "ViewState": "AQIAABEAAAAAMjMzMzPjvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T10:15:33.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T06:33:39.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240501174846_InitApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Migrations\\20240501174846_InitApplicationUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240501174846_InitApplicationUser.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Migrations\\20240501174846_InitApplicationUser.cs",
+              "RelativeToolTip": "Migrations\\20240501174846_InitApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:12:22.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\AddUserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AddUserViewModel.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\UA\\sems4\\Advanced\\Rouba_Rami\\AdvancedProg_Proj\\Models\\AddUserViewModel.cs",
+              "RelativeToolTip": "Models\\AddUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:19:16.357Z",
               "EditorCaption": ""
             }
           ]

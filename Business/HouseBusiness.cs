@@ -108,5 +108,12 @@ namespace HouseMates.Business
 
             return response;
         }
+        public List<House> SearchHouses(string searchedString)
+        {
+            List<House> list = _dbContext.Houses.Where(h => h.location.ToLower().Contains(searchedString.ToLower())).ToList();
+            return list;
+
+        }
+
     }
 }

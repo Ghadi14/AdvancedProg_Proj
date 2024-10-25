@@ -1,0 +1,48 @@
+﻿@model List<HouseMates.Models.House>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+
+<h2>Search Results</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No houses found matching your search criteria.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Location</td>
+                <td>Description</td>
+                <td>Number Of Bedrooms</td>
+                <td>Number Of Bathrooms</td>
+                <td>RoomMate Description</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var house in Model)
+            {
+                <tr>
+                    <td>@house.location</td>
+                    <td>@house.description</td>
+                    <td>@house.numberOfBedrooms</td>
+                    <td>@house.numberOfBathrooms</td>
+                    <td>@house.roomMateDescription</td>
+                    <td>
+                        <div class="mt-3">
+                            <a class="btn btn-primary" asp-controller="House" asp-action="Details" asp-route-id="@house.Id"> View Details</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+
+

@@ -4,5 +4,11 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">ASP.NET Core</a>.</p>
+
+    <!-- Search form -->
+    <form asp-action="Search" asp-controller="Home" method="get" class="form-inline">
+        <input type="text" name="searchedString" class="form-control mr-sm-2" placeholder="Search by location..." />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
 </div>

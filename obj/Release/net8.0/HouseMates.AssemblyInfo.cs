@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HouseMates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f512d15c4ccb26d1f3a6f5fa1075d7f4928457")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+450ec45321db97787f6133847b09d896eb7ceb5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HouseMates")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HouseMates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,6 +14,7 @@ namespace HouseMates.Business
         public Task<StatusCode> DeleteAction(Guid id);
         public List<House> ListBrowseHouses(ClaimsPrincipal User);
         public Task<ApplicationUser> UserGet(string id);
+        public List<House> SearchHouses(string searchedString);
 
 
 
